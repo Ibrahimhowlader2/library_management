@@ -43,6 +43,7 @@ INSTALLED_APPS = [
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 
 CRISPY_TEMPLATE_PACK = "bootstrap5"
+CSRF_TRUSTED_ORIGINS = ['https://library-management-ccsh.onrender.com']
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
